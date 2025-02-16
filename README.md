@@ -1,10 +1,14 @@
 # Cloudflare WAF Rules Wizard
 A simple plugin to create Cloudflare WAF custom rules using your Cloudflare API key. This plugin is based on the amazing work by Troy Glancy and his superb [Cloudflare WAF Rules](https://webagencyhero.com/cloudflare-waf-rules-v3/?utm=github-presswizards-cloudflare-waf-rules-wizard). Read through the WAF rules logic and details on his site.
 
+Gregg Davis fork = Added function to change minimum TLS Version from 1.0 to 1.2 to make sure all SSLs are rated A+ instead of B - this is under SSL/TLS > Edge Certificates in Cloudflare.
+
 ## Summary
 This plugin can be installed on any WordPress site you own, and then use it to bulk create the rules to as many domains in your Cloudflare account, including delegated member accounts you have access to.
 
 It takes your Cloudflare API key, email, and account ID, and then gets all the domains in that account, and displays a checkbox list of them all, and you can choose the domains you want to add Troy’s WAF rules to, and bulk update all the domains with one click. Please see the notes and security tips in the plugin settings page.
+
+Gregg Davis fork = It also changes your TLS Minimum Version from 1.0 (default) to 1.2 under SSL/TLS > Edge Certificates.
 
 ## Some Important Notes
 ⚠️ **Please note that this plugin overwites the 5 WAF rules on all domains, it will erase the existing rules and create new ones.** These 5 rules should work with Cloudflare Free, Pro and Business plans. They do not work for Enterprise Cloudflare, which most likely your web hosting provider controls directly.
