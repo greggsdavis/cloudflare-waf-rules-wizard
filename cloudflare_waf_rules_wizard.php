@@ -158,9 +158,6 @@ function pw_update_tls_minimum_version($zoneId, $headers) {
 
     $response = pw_makeCurlRequest($url, 'PATCH', $headers, $data);
 
-    // Debugging: Log response
-    error_log("Cloudflare TLS API Response: " . print_r($response, true));
-
     if (isset($response['success']) && $response['success']) {
         return true; // TLS updated successfully
     } else {
