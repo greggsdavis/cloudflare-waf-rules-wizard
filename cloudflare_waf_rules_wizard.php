@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Cloudflare WAF Rules Wizard
-Description: A simple plugin to create Cloudflare WAF custom rules based on account ID (based on Troy Glancy's superb CF WAF v3 rules)
-Version: 1.85
-Author: Rob Marlbrough - PressWizards.com
-Author URI:        https://presswizards.com/
+Plugin Name: Cloudflare WAF Rules with TLS Minimum 1.2
+Description: A simple plugin to create Cloudflare WAF custom rules based on account ID and TLS minimum version 1.2
+Version: 1.86
+Author: Gregg Davis - LeverageWP.com
+Author URI:        https://leveragewp.com/
 License:           GPL v3 or later
 License URI:       https://www.gnu.org/licenses/gpl-3.0.html
 Requires at least: 5.2
