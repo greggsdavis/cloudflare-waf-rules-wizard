@@ -34,7 +34,7 @@ Last, check your Cloudflare WAF Rules to see if they have applied:
 &nbsp;
 
 And, check your Cloudflare Security > Edge Certificates to see that they've changed to 1.2:
-https://raw.githubusercontent.com/greggsdavis/cloudflare-waf-rules-wizard/refs/heads/main/CF-TLS-version.jpg
+![cf-wizard-TLS-minimum](https://raw.githubusercontent.com/greggsdavis/cloudflare-waf-rules-wizard/refs/heads/main/CF-TLS-version.jpg)
 
 &nbsp;
 
