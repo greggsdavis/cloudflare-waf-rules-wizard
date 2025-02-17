@@ -1,4 +1,4 @@
-# Cloudflare WAF Rules Wizard
+# Cloudflare WAF Rules Wizard plus TLS Minimum change
 A simple plugin to create Cloudflare WAF custom rules using your Cloudflare API key. This plugin is based on the amazing work by Troy Glancy and his superb [Cloudflare WAF Rules](https://webagencyhero.com/cloudflare-waf-rules-v3/?utm=github-presswizards-cloudflare-waf-rules-wizard). Read through the WAF rules logic and details on his site.
 
 ## Leverage WP fork by Gregg Davis
