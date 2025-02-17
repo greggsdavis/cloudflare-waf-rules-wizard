@@ -33,6 +33,11 @@ Last, check your Cloudflare WAF Rules to see if they have applied:
 
 &nbsp;
 
+And, check your Cloudflare Security > Edge Certificates to see that they've changed to 1.2:
+https://raw.githubusercontent.com/greggsdavis/cloudflare-waf-rules-wizard/refs/heads/main/CF-TLS-version.jpg
+
+&nbsp;
+
 ## Delete Settings and Deactivate/Delete
 After you are done adding your shiny new WAF Rules: ⚠️ **don't forget to click the Delete Settings button** after you are done using this plugin to remove your credentials from the database, for best security practices. They are not encrypted when stored. Maybe future versions will encrypt, delete the options on deactivation, etc. Right now it is a quick and simple plugin for you to use, delete the settings, and then deactivate and delete the plugin. It is not recommended to keep the plugin settings long term, or to keep the plugin active. You can always repeat the above steps later for adding additional domains or deleting and recreating the rules for existing domains.
 
